@@ -16,4 +16,5 @@ function amazingNumbers(num) {
      console.log(`${num} Amazing? ${isAmazing}`);
 }
 amazingNumbers(5554);
+console.log("-------------------");
 amazingNumbers(999);
