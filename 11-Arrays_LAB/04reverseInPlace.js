@@ -6,7 +6,7 @@ function reverseInPlace(arr) {
         arr[i] = arr[arr.length-1-i];
         arr[arr.length-1-i] = tempElement;
         
-    }
+    }  
     console.log(arr.join(' '));
 }
 reverseInPlace(['a', 'b', 'c', 'd', 'e']);
