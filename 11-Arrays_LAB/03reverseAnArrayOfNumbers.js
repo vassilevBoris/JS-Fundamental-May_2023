@@ -1,8 +1,7 @@
 function reverseAnArrayOfNumbers(n, arr) {
-    
 
     let res = [];
-    for (let i = n-1; i >= 0; i--) {
+    for (let i = n - 1; i >= 0; i--) {
         res.push(arr[i]);
     }
     console.log(res.join(" "));
@@ -16,13 +15,13 @@ function reverseAnArrayOfNumbers(n, arr) {
     // let reverseArr = [];
     // for (let i = res.length-1; i >= 0; i--) {
     //     reverseArr.push(res[i]);
-        
+
     // }
 
     // console.log(reverseArr.join(" "));
 
 
-    
+
 }
 reverseAnArrayOfNumbers(3, [10, 20, 30, 40, 50]);
 console.log("----------------------------------");
