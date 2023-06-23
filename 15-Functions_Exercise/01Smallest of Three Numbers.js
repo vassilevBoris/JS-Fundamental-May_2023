@@ -1,8 +1,6 @@
 function smallestOfThreeNumbers(num1, num2, num3) {
+    
     return Math.min(num1, num2,num3);
-
-
-
 
 }
 console.log(smallestOfThreeNumbers(5,3,2));

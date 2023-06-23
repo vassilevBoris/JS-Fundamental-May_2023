@@ -1,4 +1,4 @@
-function rightPlace(stringA, char, stringB) {
+ function rightPlace(stringA, char, stringB) {
     let newStr = stringA.replace("_", char);
     if (newStr === stringB) {
         console.log("Matched");

@@ -1,13 +1,14 @@
 function addAndSubtract(num1, num2, num3) {
-    function sum(num1, num2) {
-        return num1 + num2;
+    function sum(a, b) {
+        return a + b;
     }
-    let sumResult = sum(num1, num2);
-    function subtract(sum, num3) {
-        return sumResult - num3;
+    function subtract(c, d) {
+        return c - d;
     }
-    return subtract(sum, num3)
+    let sumResult = sum(num1, num2); 
+    let  subtrResult = subtract(sumResult, num3)
+        console.log(subtrResult);
 }
 
-console.log(addAndSubtract(5, 3, 2));
-console.log(addAndSubtract(11, 22, 33));
+addAndSubtract(5, 3, 2);
+addAndSubtract(11, 22, 33);

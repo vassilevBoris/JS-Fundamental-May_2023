@@ -1,11 +1,13 @@
 function mathPower(num, power) {
     let res = 1
-     for (let i = 0; i < power; i++) {
-            res *= num;   
-     }
-     console.log(res);
-
-
-    // console.log(Math.pow(num, power));
+    function multi(a, b) {
+        return a * b;
+    }
+    for (let i = 0; i < power; i++) {
+        res = multi(res, num);
+    }
+    console.log(res);
 }
+
+
 mathPower(2, 8); 

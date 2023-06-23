@@ -42,6 +42,5 @@ function heartDelivery(arr) {
         console.log(`Cupid has failed ${resultArr.length} places.`);
     }
 
-
 }
 heartDelivery((["2@4@2", "Jump 2", "Jump 2", "Jump 8", "Jump 3", "Jump 1", "Love!"]));

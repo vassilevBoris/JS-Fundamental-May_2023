@@ -11,14 +11,14 @@ function maxNumber(arr) {
                 isMax = false;
                 break;
             }
-
         }
         if (isMax) {
             result += `${currentNumber}`+ " "
         }
 
     }
-    console.log(result); 
+    console.log(result);  
+
 
 
 }

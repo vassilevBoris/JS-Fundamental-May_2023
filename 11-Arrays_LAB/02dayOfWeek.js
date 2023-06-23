@@ -6,7 +6,7 @@ function dayOfWeek(data) {
     } else {
         console.log("Invalid day!");
     }
-
+  
 }
 // dayOfWeek 3;
 dayOfWeek(1);

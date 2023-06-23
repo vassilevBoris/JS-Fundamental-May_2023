@@ -17,4 +17,4 @@ function amazingNumbers(num) {
 }
 amazingNumbers(5554);
 console.log("-------------------");
-amazingNumbers(999);
+amazingNumbers(999); 
