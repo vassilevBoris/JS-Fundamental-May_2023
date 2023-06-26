@@ -10,7 +10,10 @@ function personInfo(firstName, lastName, age) {
         lastName,
         age
     };
-    return person
+    return person;
+    
 }
+
 console.table(personInfo("Peter", "Pan", "20"));
+// console.table(personInfo("Boris", "Vassilev", "21400"));
 
